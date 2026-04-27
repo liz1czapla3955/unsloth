@@ -27,6 +27,7 @@ def read_requirements():
         "tqdm",
         "packaging",
         "numpy",
+        "datasets>=2.16.0",  # added: commonly needed for training workflows
     ]
 
 setup(
