@@ -62,6 +62,12 @@ setup(
         "colab": [
             "xformers",
         ],
+        # personal: added a convenience extra to install everything I typically use
+        "full": [
+            "flash-attn>=2.5.0",
+            "xformers",
+            "wandb",
+        ],
     },
     classifiers=[
         "Development Status :: 4 - Beta",
